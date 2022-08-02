@@ -16,6 +16,7 @@
         <maven.compiler.target>18</maven.compiler.target>
         <slf4j-api.version>1.7.36</slf4j-api.version>
         <lombok.version>1.18.24</lombok.version>
+        <junit.version>4.13.2</junit.version>
     </properties>
 
     <dependencies>
@@ -32,6 +33,17 @@
             <version>${lombok.version}</version>
             <scope>provided</scope>
         </dependency>
+
+
+        <!-- junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        
     </dependencies>
+    
     
 </project>
