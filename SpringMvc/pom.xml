@@ -17,6 +17,7 @@
         <slf4j-api.version>1.7.36</slf4j-api.version>
         <lombok.version>1.18.24</lombok.version>
         <junit.version>4.13.2</junit.version>
+        <cglib.version>3.3.0</cglib.version>
     </properties>
 
     <dependencies>
@@ -33,7 +34,13 @@
             <version>${lombok.version}</version>
             <scope>provided</scope>
         </dependency>
-
+        <!-- cglib -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>${cglib.version}</version>
+        </dependency>
+        
 
         <!-- junit -->
         <dependency>

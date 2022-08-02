@@ -1,9 +1,6 @@
 package com.wuxianggujun.core;
 
-import com.wuxianggujun.core.annotation.Component;
-import com.wuxianggujun.core.annotation.Controller;
-import com.wuxianggujun.core.annotation.Repository;
-import com.wuxianggujun.core.annotation.Service;
+import com.wuxianggujun.core.annotation.*;
 import com.wuxianggujun.util.ClassUtil;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
@@ -29,7 +26,7 @@ public class BeanContainer {
     /**
      * 加载bean的注解列表
      */
-    private static final List<Class<? extends Annotation>> BEAN_ANNOTATION = Arrays.asList(Component.class, Controller.class, Service.class, Repository.class);
+    private static final List<Class<? extends Annotation>> BEAN_ANNOTATION = Arrays.asList(Component.class, Controller.class, Service.class, Repository.class, Aspect.class);
 
 
     /**
