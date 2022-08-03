@@ -8,5 +8,6 @@ public @interface Aspect {
     /**
      * 目标代理类的范围
      */
-    Class<? extends Annotation> target();
+    //Class<? extends Annotation> target();
+    String pointcut() default "";
 }

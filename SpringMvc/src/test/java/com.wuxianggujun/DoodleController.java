@@ -13,4 +13,8 @@ public class DoodleController {
     public void hello() {
         log.info(doodleService.helloWord());
     }
+
+    public void helloForAspect() {
+        log.info("Hello Aspectj");
+    }
 }

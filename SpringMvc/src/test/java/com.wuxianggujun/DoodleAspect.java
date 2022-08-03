@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.lang.reflect.Method;
 
 @Slf4j
-@Aspect(target = Controller.class)
+@Aspect(pointcut = "execution(* com.wuxianggujun.DoodleController.helloForAspect(..))")
 public class DoodleAspect implements AroundAdvice {
     @Override
     public void before(Class<?> clz, Method method, Object[] args) throws Throwable {

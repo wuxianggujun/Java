@@ -22,6 +22,8 @@ public class ProxyAdvisor {
      * 通知
      */
     private Advice advice;
+    
+    private ProxyPointcut pointcut;
 
     /**
      * 执行代理方法
@@ -34,6 +36,10 @@ public class ProxyAdvisor {
      * @throws Throwable
      */
     public Object doProxy(Object target, Class<?> targetClass, Method method, Object[] args, MethodProxy proxy) throws Throwable {
+        if (!pointcut.matches(method)){
+            return proxy.invokeSuper(target,args);
+        }
+        
         Object result = null;
 
         if (advice instanceof MethodBeforeAdvice) {
