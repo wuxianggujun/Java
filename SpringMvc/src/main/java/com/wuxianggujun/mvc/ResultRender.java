@@ -1,6 +1,7 @@
 package com.wuxianggujun.mvc;
 
 import com.alibaba.fastjson.JSON;
+import com.wuxianggujun.Doodle;
 import com.wuxianggujun.core.BeanContainer;
 import com.wuxianggujun.mvc.annotation.ResponseBody;
 import com.wuxianggujun.mvc.bean.ModelAndView;
@@ -99,9 +100,12 @@ public class ResultRender {
                 throw new RuntimeException("返回值类型不合法");
             }
             try {
-                req.getRequestDispatcher("/templates/" + path).forward(req, resp);
+                Doodle.getConfiguration().getResourcePath();
+                //req.getRequestDispatcher("/templates/" + path).forward(req, resp);
+                req.getRequestDispatcher(Doodle.getConfiguration().getResourcePath()+path).forward(req,resp);
             } catch (Exception e) {
                 log.error("转发请求失败", e);
+                //TODO:异常统一处理，400等
             }
         }
 
