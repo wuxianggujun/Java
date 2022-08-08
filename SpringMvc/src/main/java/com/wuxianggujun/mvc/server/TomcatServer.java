@@ -47,11 +47,11 @@ public class TomcatServer implements Server {
             WebResourceRoot resources = new StandardRoot(ctx);
             ctx.setResources(resources);
             //添加 jspServlet default·Servlet和自己实现的dispatcherServlet
-            tomcat.addServlet("", "jspServlet", new JspServlet()).setLoadOnStartup(3);
-            tomcat.addServlet("", "defaultServlet", new DefaultServlet()).setLoadOnStartup(1);
+            //tomcat.addServlet("", "jspServlet", new JspServlet()).setLoadOnStartup(3);
+            //tomcat.addServlet("", "defaultServlet", new DefaultServlet()).setLoadOnStartup(1);
             tomcat.addServlet("", "dispatcherServlet", new DispatcherServlet()).setLoadOnStartup(0);
-            ctx.addServletMappingDecoded("/templates/" + "*", "jspServlet");
-            ctx.addServletMappingDecoded("/static/" + "*", "defaultServlet");
+            //ctx.addServletMappingDecoded("/templates/" + "*", "jspServlet");
+            //ctx.addServletMappingDecoded("/static/" + "*", "defaultServlet");
             ctx.addServletMappingDecoded("/*", "dispatcherServlet");
         } catch (Exception e) {
             log.error("初始化 Tomcat 失败", e);
