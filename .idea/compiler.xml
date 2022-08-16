@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringMvc" />
+        <module name="ProgrammingIdeas" />
+        <module name="Collections-In-Java" />
         <module name="ChainofResponsibilityPattern" />
       </profile>
     </annotationProcessing>
