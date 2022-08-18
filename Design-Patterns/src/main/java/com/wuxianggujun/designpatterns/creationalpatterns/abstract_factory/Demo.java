@@ -1,0 +1,27 @@
+package com.wuxianggujun.designpatterns.creationalpatterns.abstract_factory;
+
+import com.wuxianggujun.designpatterns.creationalpatterns.abstract_factory.app.Application;
+import com.wuxianggujun.designpatterns.creationalpatterns.abstract_factory.factories.GUIFactory;
+import com.wuxianggujun.designpatterns.creationalpatterns.abstract_factory.factories.MacOSFactory;
+import com.wuxianggujun.designpatterns.creationalpatterns.abstract_factory.factories.WindowsFactory;
+
+public class Demo {
+    
+    private static Application configureApplication() {
+        Application app;
+        GUIFactory factory;
+        String osName = System.getProperty("os.name").toLowerCase();
+        if (osName.contains("mac")){
+            factory = new MacOSFactory();
+        }else{
+            factory = new WindowsFactory();
+        }
+        app = new Application(factory);
+        return app;
+    }
+
+    public static void main(String[] args) {
+        Application app = configureApplication();
+        app.paint();
+    }
+}
