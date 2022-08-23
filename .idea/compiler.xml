@@ -11,6 +11,7 @@
         <module name="SpringMvc" />
         <module name="ProgrammingIdeas" />
         <module name="Collections-In-Java" />
+        <module name="ImageToByte" />
         <module name="ChainofResponsibilityPattern" />
       </profile>
     </annotationProcessing>
