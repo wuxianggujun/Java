@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Calculator/pom.xml" />
+        <option value="$PROJECT_DIR$/Command/pom.xml" />
       </set>
     </option>
   </component>
