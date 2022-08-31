@@ -15,9 +15,9 @@
         <module>Collections-In-Java</module>
         <module>Design-Patterns</module>
         <module>ImageToByte</module>
-        <module>crazyjava</module>
         <module>TestBot</module>
         <module>Command</module>
+        <module>netty-hello</module>
     </modules>
 
     <properties>

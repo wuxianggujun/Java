@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="crazyjava" />
         <module name="Collections-In-Java" />
         <module name="ImageToByte" />
         <module name="Design-Patterns" />
         <module name="SpringMvc" />
+        <module name="netty-hello" />
         <module name="TestBot" />
         <module name="ProgrammingIdeas" />
         <module name="ChainofResponsibilityPattern" />
@@ -20,6 +20,7 @@
     <bytecodeTargetLevel>
       <module name="Calculator" target="18" />
       <module name="Command" target="18" />
+      <module name="crazyjava" target="18" />
       <module name="gulimall" target="18" />
     </bytecodeTargetLevel>
   </component>

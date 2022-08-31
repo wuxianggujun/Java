@@ -1,12 +1,12 @@
 package org.wuxianggujun.command;
 
-public class ConcreteCommand implements Command {
+public class ConcreteCommand implements org.wuxianggujun.command.Command {
     /**
      * 持有相应的接受者对象
      */
-    private Receiver receiver = null;
+    private org.wuxianggujun.command.Receiver receiver = null;
 
-    public ConcreteCommand(Receiver receiver) {
+    public ConcreteCommand(org.wuxianggujun.command.Receiver receiver) {
         this.receiver = receiver;
     }
 
