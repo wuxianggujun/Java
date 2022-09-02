@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="wuxiang-muxin-netty" />
         <module name="Collections-In-Java" />
         <module name="ImageToByte" />
         <module name="Design-Patterns" />
@@ -22,6 +23,7 @@
       <module name="Command" target="18" />
       <module name="crazyjava" target="18" />
       <module name="gulimall" target="18" />
+      <module name="wuxiang-netty" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

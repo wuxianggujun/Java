@@ -13,5 +13,9 @@
     <file url="file://$PROJECT_DIR$/gulimall/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-hello/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-hello/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wuxiang-muxin-netty/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wuxiang-muxin-netty/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wuxiang-netty/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wuxiang-netty/src/main/resources" charset="UTF-8" />
   </component>
 </project>
