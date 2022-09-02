@@ -1,6 +1,8 @@
 package com.wuxianggujun.muxin.mapper;
 
 import com.wuxianggujun.muxin.pojo.FriendsRequest;
+import org.apache.ibatis.annotations.Mapper;
+import tk.mybatis.mapper.common.BaseMapper;
 
 /**
 * @author MI
@@ -8,7 +10,8 @@ import com.wuxianggujun.muxin.pojo.FriendsRequest;
 * @createDate 2022-09-02 18:54:00
 * @Entity com.wuxianggujun.muxin.pojo.FriendsRequest
 */
-public interface FriendsRequestMapper {
+@Mapper
+public interface FriendsRequestMapper extends BaseMapper<FriendsRequest> {
 
 }
 
