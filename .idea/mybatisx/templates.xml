@@ -6,7 +6,7 @@
         <option name="generateConfig">
           <GenerateConfig>
             <option name="annotationType" value="NONE" />
-            <option name="basePackage" value="generator" />
+            <option name="basePackage" value="com.wuxianggujun.muxin" />
             <option name="basePath" value="src/main/java" />
             <option name="classNameStrategy" value="camel" />
             <option name="encoding" value="UTF-8" />
@@ -15,8 +15,8 @@
             <option name="ignoreFieldSuffix" value="" />
             <option name="ignoreTablePrefix" value="" />
             <option name="ignoreTableSuffix" value="" />
-            <option name="moduleName" value="wuxiang-netty" />
-            <option name="modulePath" value="$PROJECT_DIR$/wuxiang-netty" />
+            <option name="moduleName" value="wuxiang-muxin-netty" />
+            <option name="modulePath" value="$PROJECT_DIR$/wuxiang-muxin-netty" />
             <option name="moduleUIInfoList">
               <list>
                 <ModuleInfoGo>
@@ -25,7 +25,7 @@
                   <option name="encoding" value="${domain.encoding}" />
                   <option name="fileName" value="${domain.fileName}Mapper" />
                   <option name="fileNameWithSuffix" value="${domain.fileName}Mapper.java" />
-                  <option name="modulePath" value="$PROJECT_DIR$/wuxiang-netty" />
+                  <option name="modulePath" value="$PROJECT_DIR$/wuxiang-muxin-netty" />
                   <option name="packageName" value="${domain.basePackage}.mapper" />
                 </ModuleInfoGo>
                 <ModuleInfoGo>
@@ -34,32 +34,14 @@
                   <option name="encoding" value="${domain.encoding}" />
                   <option name="fileName" value="${domain.fileName}Mapper" />
                   <option name="fileNameWithSuffix" value="${domain.fileName}Mapper.xml" />
-                  <option name="modulePath" value="$PROJECT_DIR$/wuxiang-netty" />
+                  <option name="modulePath" value="$PROJECT_DIR$/wuxiang-muxin-netty" />
                   <option name="packageName" value="mapper" />
-                </ModuleInfoGo>
-                <ModuleInfoGo>
-                  <option name="basePath" value="${domain.basePath}" />
-                  <option name="configName" value="serviceImpl" />
-                  <option name="encoding" value="${domain.encoding}" />
-                  <option name="fileName" value="${domain.fileName}ServiceImpl" />
-                  <option name="fileNameWithSuffix" value="${domain.fileName}ServiceImpl.java" />
-                  <option name="modulePath" value="$PROJECT_DIR$/wuxiang-netty" />
-                  <option name="packageName" value="${domain.basePackage}.service.impl" />
-                </ModuleInfoGo>
-                <ModuleInfoGo>
-                  <option name="basePath" value="${domain.basePath}" />
-                  <option name="configName" value="serviceInterface" />
-                  <option name="encoding" value="${domain.encoding}" />
-                  <option name="fileName" value="${domain.fileName}Service" />
-                  <option name="fileNameWithSuffix" value="${domain.fileName}Service.java" />
-                  <option name="modulePath" value="$PROJECT_DIR$/wuxiang-netty" />
-                  <option name="packageName" value="${domain.basePackage}.service" />
                 </ModuleInfoGo>
               </list>
             </option>
             <option name="needToStringHashcodeEquals" value="true" />
             <option name="needsComment" value="true" />
-            <option name="relativePackage" value="domain" />
+            <option name="relativePackage" value="pojo" />
             <option name="superClass" value="" />
             <option name="tableUIInfoList">
               <list>
@@ -81,13 +63,13 @@
                 </TableUIInfo>
               </list>
             </option>
-            <option name="templatesName" value="mybatis-plus2" />
+            <option name="templatesName" value="default-empty" />
             <option name="useLombokPlugin" value="true" />
           </GenerateConfig>
         </option>
-        <option name="moduleName" value="wuxiang-netty" />
+        <option name="moduleName" value="wuxiang-muxin-netty" />
         <option name="projectPath" value="$PROJECT_DIR$" />
-        <option name="templateName" value="mybatis-plus2" />
+        <option name="templateName" value="default-empty" />
       </TemplateContext>
     </option>
   </component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wuxianggujun.muxin.mapper.UsersMapper">
+
+    <resultMap id="BaseResultMap" type="com.wuxianggujun.muxin.pojo.Users">
+            <id property="id" column="id" jdbcType="VARCHAR"/>
+            <result property="username" column="username" jdbcType="VARCHAR"/>
+            <result property="password" column="password" jdbcType="VARCHAR"/>
+            <result property="faceImage" column="face_image" jdbcType="VARCHAR"/>
+            <result property="faceImageBig" column="face_image_big" jdbcType="VARCHAR"/>
+            <result property="nickname" column="nickname" jdbcType="VARCHAR"/>
+            <result property="qrcode" column="qrcode" jdbcType="VARCHAR"/>
+            <result property="cid" column="cid" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,username,password,
+        face_image,face_image_big,nickname,
+        qrcode,cid
+    </sql>
+</mapper>
