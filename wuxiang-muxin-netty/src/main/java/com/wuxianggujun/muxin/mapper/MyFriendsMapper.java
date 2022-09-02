@@ -10,7 +10,7 @@ import tk.mybatis.mapper.common.BaseMapper;
 * @createDate 2022-09-02 18:54:00
 * @Entity com.wuxianggujun.muxin.pojo.MyFriends
 */
-@Mapper
+//@Mapper
 public interface MyFriendsMapper extends BaseMapper<MyFriends> {
 
 }

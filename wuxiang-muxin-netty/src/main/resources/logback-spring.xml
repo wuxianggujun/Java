@@ -122,10 +122,4 @@
         <appender-ref ref="error_log" />
     </logger>
 
-    <!-- additivity=false代表禁止默认累计的行为，即com.atomikos中的日志只会记录到日志文件中，不会输出层次级别更高的任何appender-->
-    <logger name="com.wuxianggujun.muxin" level="INFO" additivity="false">
-        <appender-ref ref="info_log" />
-        <appender-ref ref="error_log" />
-    </logger>
-
 </configuration>
