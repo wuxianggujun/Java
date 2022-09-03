@@ -1,8 +1,8 @@
 package com.wuxianggujun.muxin.mapper;
 
 import com.wuxianggujun.muxin.pojo.Users;
-import org.apache.ibatis.annotations.Mapper;
 import tk.mybatis.mapper.common.BaseMapper;
+import tk.mybatis.mapper.common.Mapper;
 
 /**
 * @author MI
@@ -11,7 +11,7 @@ import tk.mybatis.mapper.common.BaseMapper;
 * @Entity com.wuxianggujun.muxin.pojo.Users
 */
 //@Mapper
-public interface UsersMapper extends BaseMapper<Users> {
+public interface UsersMapper extends Mapper<Users>,BaseMapper<Users> {
 
 }
 

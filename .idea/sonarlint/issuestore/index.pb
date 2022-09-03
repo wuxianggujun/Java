@@ -19,8 +19,6 @@ p
 LTestBot/src/main/java/org/wuxianggujun/testbot/core/MessageEventManager.java,6\9\69965bfe76b35749c02a39fa69e275737ea7d0da
 ?
 TestBot/pom.xml,b\8\b86b68b3f6edc3b59e16825ae581757b7c9d7dba
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 t
 DTestBot/src/main/java/org/wuxianggujun/testbot/TestClassScanner.java,8\8\882026a07e32cae90e6d831d7bfbe0bf3942eef0
 y
@@ -33,5 +31,5 @@ Gnetty-hello/src/main/java/com/wuxianggujun/netty_hello/HelloServer.java,6\7\67
 Znetty-hello/src/main/java/com/wuxianggujun/netty_hello/websocket/WSSServerInitializer.java,6\3\63389136ea5aefdea3d873267976b58c8fa35498
 N
 netty-hello/WebChat/index.html,a\3\a32f31061ce6eb2cdf01610447102e8a7b23c342
-E
-wuxiang-netty/HELP.md,3\c\3ce09632d88c1dbaafdf542205685be8f835f82b
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

@@ -3,6 +3,8 @@ package com.wuxianggujun.muxin.pojo;
 import java.io.Serializable;
 import lombok.Data;
 
+import javax.persistence.Id;
+
 /**
  * 
  * @TableName users
@@ -12,6 +14,7 @@ public class Users implements Serializable {
     /**
      * 主键id
      */
+    @Id
     private String id;
 
     /**
