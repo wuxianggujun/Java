@@ -10,6 +10,7 @@
         <module name="wuxiang-muxin-netty" />
         <module name="Collections-In-Java" />
         <module name="ImageToByte" />
+        <module name="reggie" />
         <module name="Design-Patterns" />
         <module name="SpringMvc" />
         <module name="netty-hello" />

@@ -18,6 +18,7 @@
         <module>TestBot</module>
         <module>Command</module>
         <module>netty-hello</module>
+        <module>reggie</module>
     </modules>
 
     <properties>

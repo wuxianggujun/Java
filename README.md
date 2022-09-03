@@ -6,3 +6,4 @@ Collections-In-Java -- 介绍java中的集合
 Design-Patterns -- Java的设计模式
 ImageToByte -- 将图片以字符的形式打印出来，相当于字符画。
 TestBot --写的一个测试机器人框架，通过反射游历获取所有的Class，将注册的class监听并且回调给接口BeanPostProcessorP，相当于一次粗略的模仿Spring。
+wuxiang-muxin-netty --一个慕课网的视频项目基于netty实现IM聊天室muxin。
