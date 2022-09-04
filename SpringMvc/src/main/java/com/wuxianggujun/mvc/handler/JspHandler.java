@@ -25,7 +25,7 @@ public class JspHandler implements Handler {
     public JspHandler(ServletContext servletContext){
         jspServlet = servletContext.getNamedDispatcher(JSP_SERVLET);
         if (jspServlet == null) {
-            throw new RuntimeException("没有 jsp Servlet")
+            throw new RuntimeException("没有 jsp Servlet");
         }
     }
     

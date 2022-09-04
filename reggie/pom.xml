@@ -116,6 +116,8 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.7.0</version>
                 <configuration>
+                    <fork>true</fork>
+                    <addResources>true</addResources>
                     <mainClass>com.wuxianggujun.reggie.ReggieApplication</mainClass>
                 </configuration>
             </plugin>
