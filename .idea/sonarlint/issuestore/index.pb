@@ -107,8 +107,6 @@ Zwuxiang-muxin-netty/src/main/java/com/wuxianggujun/muxin/WuxiangMuxinNettyAppli
 Owuxiang-muxin-netty/src/main/java/com/wuxianggujun/muxin/netty/ChatHandler.java,e\8\e89eb3c4e51277f07093ca02f612561c787628bd
 D
 reggie/db_reggie.sql,4\0\40336840d6c99b636bcbf91f82a33ce70736d8f3
-A
-reggie/.gitignore,f\5\f5db608e6029af458dae26294cda72649d988a42
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 @
