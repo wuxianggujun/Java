@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
- * Ô±¹¤ÊµÌå
+ * å‘˜å·¥å®ä½“
  */
 @Data
 public class Employee implements Serializable {
@@ -26,20 +26,20 @@ public class Employee implements Serializable {
 
     private String sex;
 
-    private String idNumber;//Éí·İÖ¤ºÅÂë
+    private String idNumber;//èº«ä»½è¯å·ç 
 
     private Integer status;
 
-    @TableField(fill = FieldFill.INSERT)//²åÈëÊ±Ìî³ä×Ö¶Î
+    @TableField(fill = FieldFill.INSERT)//æ’å…¥æ—¶å¡«å……å­—æ®µ
     private LocalDateTime createTime;
 
-    @TableField(fill = FieldFill.INSERT_UPDATE)//²åÈëºÍ¸üĞÂÊ±Ìî³ä×Ö¶Î
+    @TableField(fill = FieldFill.INSERT_UPDATE)//æ’å…¥å’Œæ›´æ–°æ—¶å¡«å……å­—æ®µ
     private LocalDateTime updateTime;
 
-    @TableField(fill = FieldFill.INSERT)//²åÈëÊ±Ìî³ä×Ö¶Î
+    @TableField(fill = FieldFill.INSERT)//æ’å…¥æ—¶å¡«å……å­—æ®µ
     private Long createUser;
 
-    @TableField(fill = FieldFill.INSERT_UPDATE)//²åÈëºÍ¸üĞÂÊ±Ìî³ä×Ö¶Î
+    @TableField(fill = FieldFill.INSERT_UPDATE)//æ’å…¥å’Œæ›´æ–°æ—¶å¡«å……å­—æ®µ
     private Long updateUser;
 
 }

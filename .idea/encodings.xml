@@ -7,18 +7,20 @@
     <file url="file://$PROJECT_DIR$/ImageToByte/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TestBot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TestBot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestProcess/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestProcess/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-hello/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-hello/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reggie/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/reggie/src/main/java/com/wuxianggujun/reggie/common/JacksonObjectMapper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reggie/src/main/java/com/wuxianggujun/reggie/common/JacksonObjectMapper.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reggie/src/main/java/com/wuxianggujun/reggie/common/R.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/reggie/src/main/java/com/wuxianggujun/reggie/entity/Category.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/reggie/src/main/java/com/wuxianggujun/reggie/entity/Dish.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/reggie/src/main/java/com/wuxianggujun/reggie/entity/Employee.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/reggie/src/main/java/com/wuxianggujun/reggie/entity/Setmeal.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reggie/src/main/java/com/wuxianggujun/reggie/entity/Category.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie/src/main/java/com/wuxianggujun/reggie/entity/Dish.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie/src/main/java/com/wuxianggujun/reggie/entity/Employee.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie/src/main/java/com/wuxianggujun/reggie/entity/Setmeal.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reggie/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reggie/src/main/resources/backend" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/reggie/src/main/resources/backend/page/demo/upload.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reggie/src/main/resources/backend/page/demo/upload.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reggie/src/main/resources/front" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reggie/src/main/resources/static/backend" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reggie/src/main/resources/static/front" charset="UTF-8" />

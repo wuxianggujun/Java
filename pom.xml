@@ -19,6 +19,7 @@
         <module>Command</module>
         <module>netty-hello</module>
         <module>reggie</module>
+        <module>TestProcess</module>
     </modules>
 
     <properties>
